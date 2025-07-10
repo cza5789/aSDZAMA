@@ -15,4 +15,3 @@ export GIT_AUTHOR_DATE=“2025-06-${day}T${hour}：${min}：${sec}”
 export GIT_COMMITTER_DATE=“$GIT_AUTHOR_DATE”
 git commit -m “提交$i”
     echo "提交 $i 时间: $GIT_AUTHOR_DATE"
-
